@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    background-color: rgb(3, 3, 37);
+    font-family: arial;
+}
+
+h1{
+    color: yellow;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
+
+span{
+    color: green;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    height: 600px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 3px solid yellow;
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    height: 100px;
+}
+
+th,td{
+    border: 3px solid yellow;
+    height: 50px;
+}
+
+td{
+    background-color: rgb(16, 16, 73);
+}
+
+input{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}
+
+
+button{
+    width: 400px;
+    border: none;
+    background-color: yellow;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 40px;
+}
